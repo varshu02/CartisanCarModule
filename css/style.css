@@ -1,0 +1,73 @@
+﻿body {
+    /*background: url('../images/service.jpg') no-repeat;*/
+    background-color: #f5f5f5;
+    height:100vh;
+    overflow:hidden;
+}
+.bckgrnd{
+    background-color:#DDD !important;
+    height:100%;
+}
+.heading{
+    background:#4d88ff;
+    margin-top: 1em;
+    opacity:0.7;
+}
+.alignLbl{
+    position:fixed;
+    left:38%;
+    color:#444;
+    font-size:18pt;
+    margin-top: 1.5em;
+}
+.btnAlign{
+    position: relative;
+    top: 5em;
+    left: 48%;
+}
+.txtColor{
+    color:#fff !important;
+}
+.txtColor1{
+    color:red;
+}
+
+.bg-Prpl {
+    background-color:purple !important;
+    color: #ffffff !important;
+}
+
+.fntwgt {
+    font-size:1.3em !important;
+    font-weight:600 !important;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .ht_72 {
+        height: 100%;
+        background-color:#fff;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .ht_72 {
+       height:calc(100vh - 50px) !important;
+           background-color: #fff;
+           overflow-y:auto;
+            }
+}
+
+.scroll-hide {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+
+.error {
+    color:red;
+}
+.mandatory{
+    color:red;
+}
